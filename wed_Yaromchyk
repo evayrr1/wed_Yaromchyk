@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Page Title</title>
+  <style>
+    /* Add your CSS styles here */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    nav ul p {
+      margin: 5px 0;
+    }
+    main {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    section {
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
+      padding: 20px;
+      width: 80%;
+      max-width: 800px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+    footer img {
+      max-width: 100px;
+      margin-top: 20px;
+    }
+    /* Background colors for sections */
+    section:nth-child(odd) {
+      background-color: #f8f8f8;
+    }
+    section:nth-child(even) {
+      background-color: #eaeaea;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><a>Questions</a></h1>
+    <nav>
+      <ul>
+        <p><a href="#section1">Question1</a></p>
+        <p><a href="#section2">Question2</a></p>
+        <p><a href="#section3">Question3</a></p>
+        <p><a href="#section4">Question4</a></p>
+        <p><a href="#section5">Question5</a></p>
+        <p><a href="#section6">Question6</a></p>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Answers to the questions</h2>
+      <p id="section1"> Q1 HTML5 became a standard in October 2014. The main reasons for developing the new standard included the need to address the limitations of previous HTML versions, support new multimedia features, improve accessibility, and provide better support for dynamic web applications.</p>
+      <p id="section2"> Q2 The main difference between W3C HTML5 and WHATWG HTML Living Standard lies in their governance and development processes. W3C HTML5 is developed by the World Wide Web Consortium (W3C), while WHATWG HTML Living Standard is developed by the Web Hypertext Application Technology Working Group (WHATWG). While they share the same goal of defining HTML specifications, they may have slightly different features, timelines, and priorities.</p>
+      <p id="section3"> Q3 This code creates a minimal HTML page that contains a paragraph with the text "Hello, world!" It also includes basic HTML elements such as &lt;!DOCTYPE html&gt;, html, head, meta, title, body, and p.</p>
+      <p id="section4"> Q4 Semantic markup focuses on conveying the meaning and structure of content using HTML elements such as header, nav, article, section, etc. Presentational markup, on the other hand, focuses on styling and appearance using elements like font, b, i, etc. Presentational markup is considered deprecated because it mixes content with presentation, making it harder for search engines to understand the content and for assistive technologies to interpret it properly. Semantic markup provides better accessibility, maintainability, and SEO benefits.</p>
+      <p id="section5"> Q5 You can check browser support for a particular tag or attribute by referring to compatibility tables provided by organizations like MDN Web Docs or Can I Use. These tables provide information on which browsers support specific HTML, CSS, and JavaScript features.</p>
+      <p id="section6"> Q6 The audio formats officially supported by the HTML standard are MP3, Ogg Vorbis, and WAV. The video formats supported are MP4, WebM, and Ogg Theora. If you use other formats, the browser may not be able to play the media content, or it may require additional plugins or fallback mechanisms to handle unsupported formats.</p>
+    </section>
+
+    <section>
+      <h2>Multimedia Examples</h2>
+      <video width="640" height="480" controls>
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        <source src="https://www.w3schools.com/html/mov_bbb.webm" type="video/webm">
+        Your browser does not support the video tag.
+      </video>
+
+      <audio controls>
+        <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+        <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+      </audio>
+    </section>
+  </main>
+
+  <footer>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsaVa-jL7j_Rl0wZN5lbWtoQoQ1qO5Ld1DRTME3KE5jw&s" alt="SB.BSU Logo">
+    <p>&copy; 2024 Evelina</p>
+    <p>Feedback: The instructions were clear, and the task was straightforward. Adding solid background colors and styling using flexbox was relatively easy. The most challenging part was ensuring proper spacing and alignment of elements within each section. Overall, it was a good exercise in HTML and CSS.</p>
+  </footer>
+</body>
+</html>
